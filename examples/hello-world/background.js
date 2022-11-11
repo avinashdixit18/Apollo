@@ -7,6 +7,8 @@
 // * addListener - what we want to do with this event
 //
 // See https://developer.chrome.com/docs/extensions/reference/events/ for additional details.
+
+console.log('first commit')
 chrome.runtime.onInstalled.addListener(async () => {
 
   // While we could have used `let url = "hello.html"`, using runtime.getURL is a bit more robust as
